@@ -21,7 +21,7 @@ def take_a_number(current_line, name)
   current_line << name
   spot = current_line.length 
   puts "Welcome, #{name}. You are number #{spot} in line."
-ends
+end
 
 
 #Call the next person in line and remove them
