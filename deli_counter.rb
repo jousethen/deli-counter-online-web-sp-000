@@ -8,7 +8,7 @@ def line(katz_deli)
     line = ""
     spot = 1 
     katz_deli.each do |customer|
-      line << "#{spot}. #{customer}"
+      line << "#{spot}. #{customer}. "
       spot += 1 
     end
     binding.pry
