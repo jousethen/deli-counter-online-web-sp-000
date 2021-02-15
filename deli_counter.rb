@@ -8,6 +8,7 @@ def line(katz_deli)
     spot = 1 
     katz_deli.each do |customer|
       line << "#{spot}. #{customer}"
+      spot += 1 
     end
     puts "The line is currently: #{line}"
   end
