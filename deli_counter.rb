@@ -11,7 +11,7 @@ def line(katz_deli)
       line << " #{spot}. #{customer}"
       spot += 1 
     end
-    binding.pry
+    
     puts "The line is currently: #{line}"
   end
 end
