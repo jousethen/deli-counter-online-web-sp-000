@@ -6,4 +6,8 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(current_line)
+#Assigns people to lines
+def take_a_number(current_line, name)
+  current_line << name
+  puts ""
+end
