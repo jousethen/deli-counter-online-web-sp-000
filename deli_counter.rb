@@ -1,5 +1,5 @@
 
-
+require 'pry'
 # Return someones place in line
 def line(katz_deli)
   if katz_deli.empty?
@@ -11,6 +11,7 @@ def line(katz_deli)
       line << "#{spot}. #{customer}"
       spot += 1 
     end
+    binding.pry
     puts "The line is currently: #{line}"
   end
 end
