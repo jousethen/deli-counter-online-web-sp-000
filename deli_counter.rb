@@ -1,4 +1,5 @@
 
+
 # Return someones place in line
 def line(katz_deli)
   if katz_deli.empty?
