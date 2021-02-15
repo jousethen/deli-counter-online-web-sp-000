@@ -21,4 +21,14 @@ def take_a_number(current_line, name)
   current_line << name
   spot = current_line.length 
   puts "Welcome, #{name}. You are number #{spot} in line."
+
+
+#Call the next person in line and remove them
+def now_serving(katz_deli)
+  if katz_deli.empty?
+    puts "There is nobody waiting to be served!"
+  else
+    puts "#{katz_deli[0]}"
+    katz_deli.shift
+  end
 end
