@@ -12,7 +12,7 @@ def line(katz_deli)
       spot += 1 
     end
     
-    puts "The line is currently: #{line}"
+    puts "The line is currently:#{line}"
   end
 end
 
