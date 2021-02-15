@@ -9,5 +9,6 @@ end
 #Assigns people to lines
 def take_a_number(current_line, name)
   current_line << name
-  puts ""
+  spot = current_line.length + 1 
+  puts "Welcome, #{name}. You are number #{spot} in line."
 end
