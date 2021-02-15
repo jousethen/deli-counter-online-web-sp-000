@@ -4,9 +4,12 @@ def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty."
   else
-    katz_deli.each do |spot|
+    line = ""
+    spot = 1 
+    katz_deli.each do |customer|
+      line << "#{spot}. #{customer}"
     end
-    puts "The line is currently: "
+    puts "The line is currently: #{line}"
   end
 end
 
