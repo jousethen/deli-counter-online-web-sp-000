@@ -2,7 +2,7 @@
 # Return someones place in line
 def line(katz_deli)
   if katz_deli.empty?
-    return "there is nobody in line"
+    puts "The line is currently empty."
   end
 end
 
